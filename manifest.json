@@ -1,7 +1,7 @@
 {
   "name": "Debut",
   "description": "A modern and customizable personal start page for your browser",
-  "version": "1.15.2208",
+  "version": "1.15.2308",
   "author": "Kenice Noel",
   "incognito": "spanning",
   "permissions": ["tabs", "storage"],

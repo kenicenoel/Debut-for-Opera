@@ -59,6 +59,12 @@ span img
 
 }
 
+a
+{
+  color: #fff;
+
+}
+
 
 span.group
 {
@@ -70,6 +76,12 @@ span.group
 
 }
 
+span.author
+{
+  padding-right: 15px;
+
+
+}
 
 
 header
@@ -150,6 +162,13 @@ label
   float:left;
   width: 250px;
   font-size: 1.2em;
+}
+
+label#selectBackground
+{
+  display: block;
+  float: none;
+  margin-top: 10px;
 }
 
 #block
