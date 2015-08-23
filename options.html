@@ -1,0 +1,73 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>Customize Debut</title>
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="libraries/font-awesome/css/font-awesome.min.css">
+
+  </head>
+
+  <body>
+
+        <div id="content">
+          <header>
+
+            Debut Options
+          </header>
+
+          <div id="options">
+
+                <header class="subheader">Pick a background, search engine and mail service to make Debut all yours.</header>
+                <br>
+
+                    <label for="searchEngine"><i class="fa fa-search"></i> Search Engine:</label>
+                      <select id="search" name="searchEngine">
+                        <option selected disabled="disabled" value="">Pick your preferred search engine</option>
+                        <option value="bing">Bing</option>
+                        <option value="google">Google</option>
+                        <option value="yahoo">Yahoo!</option>
+                        <option value="duckduckgo">Duck Duck Go</option>
+                      </select>
+                      <br>
+                      <label for="mail"><i class="fa fa-envelope-o"></i> Email service:</label>
+                      <select id="mail" name="mail">
+                        <option selected disabled="disabled" value="">Pick your preferred mail service</option>
+                        <option value="outlook">Outlook &amp; Hotmail</option>
+                        <option value="gmail">Gmail</option>
+                        <option value="yahoo">Yahoo! Mail</option>
+                      </select>
+                      <br>
+
+                    <label for="footerText"><i class="fa fa-pencil"></i> Footer text:</label>
+                    <input id="footerText" type="text" name="footerText" placeholder="Debut" />
+                <br><br>
+
+                <label><i class="fa fa-image"></i> Pick a background</label>
+                    <br>
+                    <img id="1" class="thumbnail" src="images/bg1.jpg" />
+                    <!-- <img id="2" class="thumbnail" src="images/bg2.jpg" /> -->
+                    <img id="3" class="thumbnail" src="images/bg3.jpg" />
+                    <img id="4" class="thumbnail" src="images/bg4.jpg" />
+                    <img id="5" class="thumbnail" src="images/bg5.jpg" />
+                    <img id="6" class="thumbnail" src="images/bg6.jpg" />
+
+
+                  <br>
+                <button id="save">Save</button>
+
+           </div>
+           <header id="message">Coded by Kenice Noel.</header>
+
+        </div>
+
+
+
+
+  </body>
+   <script src="scripts/jquery.js"></script>
+   <script type="text/javascript" src="scripts/options.js"></script>
+
+
+</html>

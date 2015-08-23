@@ -1,0 +1,25 @@
+{
+  "name": "Debut",
+  "description": "A modern and customizable personal start page for your browser",
+  "version": "1.15.2208",
+  "author": "Kenice Noel",
+  "incognito": "spanning",
+  "permissions": ["tabs", "storage"],
+
+
+  "background":
+  {
+    "scripts": ["scripts/background.js"]
+  },
+
+"options_page":"options.html",
+
+  "icons":
+  {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+
+  "manifest_version": 2
+}
