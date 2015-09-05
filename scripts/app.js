@@ -47,14 +47,14 @@ $(document).ready(function()
                       else if (engine == "google")
                       {
                         url="http://google.com/search?q=";
-                        $('#searchIcon').attr('src', '../images/google.jpg');
+                        $('#searchIcon').attr('src', '../images/google.png');
                         $('#search').attr('placeholder', 'Search with Google');
                       }
 
                       else if (engine == "duckduckgo")
                       {
                         url="https://duckduckgo.com/?q=";
-                        $('#searchIcon').attr('src', '../images/duckduckgo.jpg');
+                        $('#searchIcon').attr('src', '../images/duckduckgo.png');
                         $('#search').attr('placeholder', 'Search with DuckDuckGo');
                       }
 
@@ -183,6 +183,17 @@ $(document).ready(function()
         var iurl="options.html";
         chrome.tabs.update(null, {url:iurl});
         //chrome.tabs.create({url:'options.html'});
+      });
+
+
+      $('#search').focus(function()
+      {
+          $(this).css({'background-color' : '#fff'});
+      });
+
+      $('#search').focusout(function()
+      {
+          $(this).css({'background-color' : 'rgba(227, 227, 217, 0.68)'});
       });
 
 

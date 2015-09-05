@@ -33,7 +33,8 @@ $(document).ready(function()
                     if(options.searchEngine)
                     {
 
-                      searchEngine= options.searchEngine;
+                      searchEngine = options.searchEngine;
+                      $("#searchbar").val(searchEngine);
 
 
                    }
@@ -48,6 +49,7 @@ $(document).ready(function()
                           {
 
                             email= options.mail;
+                            $("#mail").val(email);
 
 
                          }
@@ -61,6 +63,7 @@ $(document).ready(function()
                                 {
 
                                   footerText= options.footerText;
+                                  $("#footerText").val(footerText);
 
 
                                }
@@ -83,9 +86,9 @@ $(document).ready(function()
       $("#save").click(function() // when the save button is clicked
       {
 
-        if($('#search').val() != null)
+        if($('#searchbar').val() != null)
         {
-          searchEngine = $('#search').val();
+          searchEngine = $('#searchbar').val();
         }
 
         if($('#mail').val() != null)
