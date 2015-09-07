@@ -1,7 +1,7 @@
 {
   "name": "Debut",
-  "description": "A modern and customizable personal start page for your browser",
-  "version": "1.15.9.5",
+  "description": "A customizable startpage for your browser that can replace Opera's speed dial",
+  "version": "1.15.9.7",
   "author": "Kenice Noel",
   "incognito": "spanning",
   "permissions": ["tabs", "storage"],

@@ -72,8 +72,8 @@ body
   -ms-user-select: none; /* From IE10 only */
   user-select: none; /* Not valid CSS yet, as of July 2012 */
 
-    -webkit-user-drag: none; /* Prevents dragging of images/divs etc */
-    user-drag: none;
+  -webkit-user-drag: none; /* Prevents dragging of images/divs etc */
+  user-drag: none;
 
   float:left;
 }
@@ -244,6 +244,7 @@ label#selectBackground
 {
   width: 100px;
   height: 80px;
+  border: 2px solid #fff;
   /*margin-right: 6px;*/
 
 }
